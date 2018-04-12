@@ -1,0 +1,46 @@
+#cal-body {
+    width:300px;
+    height:500px;
+    background-color: #bdbdbd;
+
+    display:grid;
+    grid-template-rows: 30% 70%;
+}
+
+#cal-screen {
+    width:250px;
+    height:100px;
+    background-color: #d1d3c2;
+    margin:auto;
+    display:grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+}
+
+#cal-input {
+    width:250px;
+    height:300px;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin:auto;
+}
+
+#cal-input div{
+    border:1px solid black;
+    margin:5px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    border-radius:5px;
+}
+
+#calculator {
+    width:100%;
+    height:33.3px;
+}
+
+#cal-button {
+    background-color: #424242;
+    border: 0;
+    color:white;
+    font-size:20px;
+}
